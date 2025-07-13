@@ -1,0 +1,6 @@
+{
+  "/(dashboard)/advertiser/page": "app/(dashboard)/advertiser/page.js",
+  "/(dashboard)/venue/page": "app/(dashboard)/venue/page.js",
+  "/(dashboard)/event-organizer/page": "app/(dashboard)/event-organizer/page.js",
+  "/(dashboard)/venue-setup/page": "app/(dashboard)/venue-setup/page.js"
+}
