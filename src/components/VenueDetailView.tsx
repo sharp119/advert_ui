@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Input } from '@/components/ui/input';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Map, Box, Settings, Activity, DollarSign } from 'lucide-react';
+import { Map, Box, Settings } from 'lucide-react';
 
 const VenueDetailView = () => {
   const [selectedTab, setSelectedTab] = useState('overview');

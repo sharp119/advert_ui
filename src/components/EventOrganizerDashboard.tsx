@@ -42,7 +42,7 @@ const StatCard = ({
   title: string, 
   value: string | number, 
   subtext?: string, 
-  icon: React.ElementType 
+  icon: React.ComponentType<{ className?: string }> 
 }) => (
   <Card>
     <CardContent className="pt-6">

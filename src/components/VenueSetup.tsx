@@ -3,12 +3,12 @@ import { useRouter } from 'next/navigation';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Camera, Upload, Settings } from 'lucide-react';
+import { Camera, Settings } from 'lucide-react';
 
 const VenueSetup = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [venueData, setVenueData] = useState({
-    scanFile: null,
+    scanFile: null as File | null,
     blockSize: '',
     heightLevels: '',
     gridDensity: '',

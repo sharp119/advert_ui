@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Input } from '@/components/ui/input';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from 'recharts';
-import { Search, Map, Activity, BarChart2 } from 'lucide-react';
+import { Search, Map } from 'lucide-react';
 
 const BlockMarketplace = () => (
   <div className="space-y-6">
